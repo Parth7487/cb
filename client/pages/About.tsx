@@ -29,7 +29,7 @@ export default function About() {
                   Our Mission
                 </h2>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  At JAGIVOHAN, we are committed to revolutionizing industrial manufacturing through innovative solutions and cutting-edge technology. Our mission is to empower businesses with reliable, efficient products and expert consultancy that drive growth and operational excellence.
+                  At CB GLOBAL, we are committed to revolutionizing industrial manufacturing through innovative solutions and cutting-edge technology. Our mission is to empower businesses with reliable, efficient products and expert consultancy that drive growth and operational excellence.
                 </p>
               </div>
 
@@ -45,7 +45,7 @@ export default function About() {
                     "Partnership - Building lasting relationships with our clients",
                   ].map((value, index) => (
                     <li key={index} className="flex items-start gap-3">
-                      <span className="text-blue-600 font-bold text-lg sm:text-xl flex-shrink-0 mt-0.5">
+                      <span className="text-yellow-600 font-bold text-lg sm:text-xl flex-shrink-0 mt-0.5">
                         ✓
                       </span>
                       <span className="text-sm sm:text-base text-muted-foreground">
