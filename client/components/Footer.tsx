@@ -26,19 +26,19 @@ export default function Footer() {
             <div className="space-y-4">
               <a
                 href="mailto:Sale@cbgloble.in"
-                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 <Mail className="w-5 h-5 flex-shrink-0" />
                 <span>Sale@cbgloble.in</span>
               </a>
               <a
                 href="tel:+919724400442"
-                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 <Phone className="w-5 h-5 flex-shrink-0" />
                 <span>+91 97244 00442</span>
               </a>
-              <div className="flex items-start gap-3 text-blue-100 text-xs sm:text-sm">
+              <div className="flex items-start gap-3 text-gray-300 text-xs sm:text-sm">
                 <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <span>India</span>
               </div>
@@ -47,7 +47,7 @@ export default function Footer() {
 
           {/* WhatsApp & Services */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Quick Links</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Quick Links</h4>
             <div className="space-y-3">
               <a
                 href="https://wa.me/919724400442?text=Hello%20JAGIVOHAN%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
