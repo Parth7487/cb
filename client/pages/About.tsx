@@ -67,13 +67,13 @@ export default function About() {
           </div>
 
           {/* Company History */}
-          <div className="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 sm:p-8 lg:p-10">
+          <div className="bg-gray-50 rounded-lg p-6 sm:p-8 lg:p-10">
             <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-4 sm:mb-6 font-display">
               Our Story
             </h2>
             <div className="space-y-4 sm:space-y-6">
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Founded with a vision to transform industrial manufacturing, JAGIVOHAN has established itself as a trusted leader in providing innovative machinery, consultancy, and auxiliary solutions. With over 15 years of expertise, we have partnered with numerous industries to optimize their operations and achieve sustainable growth.
+                Founded with a vision to transform industrial manufacturing, CB GLOBAL has established itself as a trusted leader in providing innovative machinery, consultancy, and auxiliary solutions. With over 15 years of expertise, we have partnered with numerous industries to optimize their operations and achieve sustainable growth.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
                 Our specialization spans consultancy services, blower molding systems, auxiliary equipment, and comprehensive industrial solutions. We combine technical expertise with customer-centric service to deliver products and solutions that exceed expectations. Our commitment to quality, reliability, and innovation continues to make us the preferred choice for industries across India and beyond.
@@ -91,9 +91,9 @@ export default function About() {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="text-center p-4 sm:p-6 bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg hover:shadow-lg transition-shadow border border-blue-200"
+                className="text-center p-4 sm:p-6 bg-gray-100 rounded-lg hover:shadow-lg transition-shadow border border-gray-200"
               >
-                <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-600 mb-2 font-display">
+                <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-600 mb-2 font-display">
                   {stat.number}
                 </p>
                 <p className="text-xs sm:text-sm text-muted-foreground font-medium">
