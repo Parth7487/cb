@@ -27,12 +27,12 @@ export default function Index() {
       </section>
 
       {/* About Section */}
-      <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-blue-100">
+      <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
             <div>
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6 font-display">
-                About JAGIVOHAN
+                About CB GLOBAL
               </h2>
               <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
                 With over 15 years of expertise in the industry, JAGIVOHAN is a leading provider of innovative manufacturing and industrial solutions. We are committed to delivering excellence and transforming businesses through cutting-edge technology and unparalleled service.
