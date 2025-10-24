@@ -1,90 +1,107 @@
-import { Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-foreground text-white mt-16 sm:mt-20">
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-8">
-          {/* Company Info */}
-          <div>
-            <div className="mb-4">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F41fcf224af494ff39f001668f5d12037%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=150"
-                alt="CB GLOBLE INDIA Logo"
-                className="h-12 w-auto object-contain"
-              />
-            </div>
-            <p className="text-gray-300 text-xs sm:text-sm leading-relaxed">
-              Revolutionizing the industry with cutting-edge technology and innovative solutions.
-            </p>
-          </div>
+    <footer className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 text-white mt-16 sm:mt-20">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-12 sm:py-16">
+        {/* Logo Section */}
+        <div className="mb-12 sm:mb-16 text-center">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F41fcf224af494ff39f001668f5d12037%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=400"
+            alt="JAGIVOHAN Logo"
+            className="h-32 sm:h-40 w-auto object-contain mx-auto mb-4"
+          />
+          <p className="text-blue-100 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+            Leading provider of innovative manufacturing and industrial solutions. Trusted by businesses worldwide for quality, reliability, and excellence.
+          </p>
+        </div>
 
-          {/* Contact Info */}
+        {/* Contact Info Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 mb-12">
+          {/* Contact Details */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-4">Contact Us</h4>
-            <div className="space-y-3">
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Contact Information</h4>
+            <div className="space-y-4">
               <a
                 href="mailto:Sale@cbgloble.in"
-                className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors text-xs sm:text-sm"
+                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
               >
-                <Mail className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-                Sale@cbgloble.in
+                <Mail className="w-5 h-5 flex-shrink-0" />
+                <span>Sale@cbgloble.in</span>
               </a>
               <a
-                href="tel:+91000000000"
-                className="flex items-center gap-3 text-gray-300 hover:text-primary transition-colors text-xs sm:text-sm"
+                href="tel:+919724400442"
+                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
               >
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" />
-                +91 (000) 000-0000
+                <Phone className="w-5 h-5 flex-shrink-0" />
+                <span>+91 97244 00442</span>
               </a>
-              <div className="flex items-start gap-3 text-gray-300 text-xs sm:text-sm">
-                <MapPin className="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0 mt-0.5" />
+              <div className="flex items-start gap-3 text-blue-100 text-xs sm:text-sm">
+                <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
                 <span>India</span>
               </div>
             </div>
           </div>
 
-          {/* Social Links */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <h4 className="text-base sm:text-lg font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-3">
+          {/* WhatsApp & Services */}
+          <div>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Quick Links</h4>
+            <div className="space-y-3">
               <a
-                href="https://facebook.com"
+                href="https://wa.me/919724400442?text=Hello%20JAGIVOHAN%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-primary text-white p-2 rounded-lg hover:bg-primary/80 transition-colors"
-                aria-label="Facebook"
+                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
               >
-                <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
+                <MessageCircle className="w-5 h-5 flex-shrink-0" />
+                <span>WhatsApp: +91 97244 00442</span>
               </a>
               <a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary text-white p-2 rounded-lg hover:bg-primary/80 transition-colors"
-                aria-label="LinkedIn"
+                href="/"
+                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
               >
-                <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
+                Home
               </a>
               <a
-                href="https://youtube.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-primary text-white p-2 rounded-lg hover:bg-primary/80 transition-colors"
-                aria-label="YouTube"
+                href="/products"
+                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
               >
-                <Youtube className="w-4 h-4 sm:w-5 sm:h-5" />
+                Products & Services
               </a>
+              <a
+                href="/contact"
+                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+              >
+                Contact Us
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Our Specialties</h4>
+            <div className="space-y-2 text-blue-100 text-xs sm:text-sm">
+              <p>• Consultancy Services</p>
+              <p>• Blower Molding</p>
+              <p>• Auxiliary Equipment</p>
+              <p>• Industrial Solutions</p>
+              <p>• Technical Support</p>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-700 pt-6 sm:pt-8">
-          <p className="text-center text-gray-400 text-xs sm:text-sm">
-            &copy; {currentYear} CB GLOBLE INDIA. All rights reserved. | Designed with precision and innovation.
-          </p>
+        {/* Developer Credit & Copyright */}
+        <div className="border-t border-blue-700 pt-8 sm:pt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
+            <p className="text-center sm:text-left text-blue-100 text-xs sm:text-sm">
+              Designed and developed by <a href="https://shopifydevstudio.tech" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-200 font-semibold">Shopifydevstudio.tech</a>
+            </p>
+            <p className="text-center sm:text-right text-blue-100 text-xs sm:text-sm">
+              &copy; {currentYear} JAGIVOHAN. All rights reserved.
+            </p>
+          </div>
         </div>
       </div>
     </footer>
