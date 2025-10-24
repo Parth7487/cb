@@ -55,13 +55,13 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden pb-4 space-y-1 animate-fadeInUp">
+          <nav className="md:hidden pb-4 space-y-1 animate-fadeInUp bg-gray-50">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
                 to={link.href}
                 onClick={() => setIsMenuOpen(false)}
-                className="block px-4 py-3 text-sm font-semibold text-white hover:bg-blue-600 rounded-lg transition-colors uppercase tracking-wide"
+                className="block px-4 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-lg transition-colors uppercase tracking-wide"
               >
                 {link.label}
               </Link>
