@@ -32,7 +32,7 @@ export default function Header() {
               <Link
                 key={link.label}
                 to={link.href}
-                className="text-sm font-semibold text-white hover:text-yellow-300 transition-colors duration-200 uppercase tracking-wide"
+                className="text-sm font-semibold text-gray-800 hover:text-yellow-600 transition-colors duration-200 uppercase tracking-wide"
               >
                 {link.label}
               </Link>
@@ -42,7 +42,7 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-blue-600 transition-colors text-white"
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors text-gray-800"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
