@@ -19,7 +19,7 @@ export default function Contact() {
   };
 
   const handleWhatsAppContact = () => {
-    const message = "Hello JAGIVOHAN, I would like to know more about your products and services.";
+    const message = "Hello CB GLOBAL, I would like to know more about your products and services.";
     const whatsappUrl = `https://wa.me/919724400442?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
