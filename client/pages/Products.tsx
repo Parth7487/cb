@@ -204,7 +204,7 @@ export default function Products() {
                     </button>
                     <button
                       onClick={() => window.location.href = "/contact"}
-                      className="flex-1 px-4 py-2.5 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-colors text-xs sm:text-sm"
+                      className="flex-1 px-4 py-2.5 border-2 border-yellow-600 text-yellow-600 hover:bg-yellow-600 hover:text-white font-semibold rounded-lg transition-colors text-xs sm:text-sm"
                     >
                       Learn More
                     </button>
