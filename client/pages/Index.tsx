@@ -26,27 +26,59 @@ export default function Index() {
         />
       </section>
 
+      {/* About Section */}
+      <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-50 to-blue-100">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12 items-center">
+            <div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6 font-display">
+                About JAGIVOHAN
+              </h2>
+              <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
+                With over 15 years of expertise in the industry, JAGIVOHAN is a leading provider of innovative manufacturing and industrial solutions. We are committed to delivering excellence and transforming businesses through cutting-edge technology and unparalleled service.
+              </p>
+              <p className="text-sm sm:text-base text-muted-foreground mb-6 leading-relaxed">
+                Our comprehensive range of products and services spans consultancy, specialized machinery, and auxiliary equipment designed to meet the diverse needs of modern industries. We pride ourselves on quality, reliability, and customer-centric innovation.
+              </p>
+              <Link
+                to="/about"
+                className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+              >
+                Read Full Story
+              </Link>
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=400&fit=crop"
+                alt="JAGIVOHAN Manufacturing"
+                className="rounded-lg shadow-lg w-full max-w-md h-auto"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Call to Action Section */}
       <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8 bg-muted">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4 sm:mb-6 font-display">
-            Welcome to CB GLOBLE INDIA
+            Discover Our Solutions
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto mb-6 sm:mb-8">
-            Discover our innovative solutions and services designed to transform your business. Explore our products, learn about our company, and get in touch with us.
+            Explore our comprehensive range of products and services designed to transform your business and drive innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/products"
-              className="px-6 sm:px-8 py-2.5 sm:py-3 bg-primary hover:bg-primary-dark text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+              className="px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
             >
               Explore Products
             </Link>
             <Link
-              to="/about"
-              className="px-6 sm:px-8 py-2.5 sm:py-3 border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+              to="/contact"
+              className="px-6 sm:px-8 py-2.5 sm:py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
             >
-              Learn About Us
+              Get In Touch
             </Link>
           </div>
         </div>
