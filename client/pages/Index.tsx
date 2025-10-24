@@ -6,9 +6,12 @@ import { Link } from "react-router-dom";
 
 export default function Index() {
   const bannerImages = [
-    "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=1200&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1200&h=600&fit=crop",
-    "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1200&h=600&fit=crop",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2F14ffa90d4ee04170bd84167494f844fa?format=webp&width=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Faa527544f0d44603804140324636ca9a?format=webp&width=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fa6d1b0a3f9c540f5aedf9f872cbbae2d?format=webp&width=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2F26c2abe8d3314205b702c8836d570ded?format=webp&width=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fb3a6e837560549008576434f2a4eb6c7?format=webp&width=1200",
+    "https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2F787d6b0868c2449ab381409327b33bf3?format=webp&width=1200",
   ];
 
   return (
