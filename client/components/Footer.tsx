@@ -9,11 +9,11 @@ export default function Footer() {
         {/* Logo Section */}
         <div className="mb-12 sm:mb-16 text-center">
           <img
-            src="https://cdn.builder.io/api/v1/image/assets%2F41fcf224af494ff39f001668f5d12037%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=400"
-            alt="JAGIVOHAN Logo"
+            src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2F2b31d010576c47e495132cfad775dc10?format=webp&width=400"
+            alt="CB GLOBAL Logo"
             className="h-32 sm:h-40 w-auto object-contain mx-auto mb-4"
           />
-          <p className="text-blue-100 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
             Leading provider of innovative manufacturing and industrial solutions. Trusted by businesses worldwide for quality, reliability, and excellence.
           </p>
         </div>
@@ -22,7 +22,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 mb-12">
           {/* Contact Details */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Contact Information</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Contact Information</h4>
             <div className="space-y-4">
               <a
                 href="mailto:Sale@cbgloble.in"
