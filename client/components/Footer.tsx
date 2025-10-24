@@ -93,13 +93,13 @@ export default function Footer() {
         </div>
 
         {/* Developer Credit & Copyright */}
-        <div className="border-t border-blue-700 pt-8 sm:pt-10">
+        <div className="border-t border-gray-700 pt-8 sm:pt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
-            <p className="text-center sm:text-left text-blue-100 text-xs sm:text-sm">
-              Designed and developed by <a href="https://shopifydevstudio.tech" target="_blank" rel="noopener noreferrer" className="text-yellow-300 hover:text-yellow-200 font-semibold">Shopifydevstudio.tech</a>
+            <p className="text-center sm:text-left text-gray-400 text-xs sm:text-sm">
+              Designed and developed by <a href="https://shopifydevstudio.tech" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:text-yellow-400 font-semibold">Shopifydevstudio.tech</a>
             </p>
-            <p className="text-center sm:text-right text-blue-100 text-xs sm:text-sm">
-              &copy; {currentYear} JAGIVOHAN. All rights reserved.
+            <p className="text-center sm:text-right text-gray-400 text-xs sm:text-sm">
+              &copy; {currentYear} CB GLOBAL. All rights reserved.
             </p>
           </div>
         </div>
