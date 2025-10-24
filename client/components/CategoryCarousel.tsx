@@ -83,7 +83,7 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
                 className="flex-1 min-w-0 cursor-pointer group"
                 onClick={() => onCategoryClick?.(category.id)}
               >
-                <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 sm:p-8 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col items-center justify-center group-hover:from-blue-100 group-hover:to-blue-200">
+                <div className="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6 sm:p-8 text-center hover:shadow-lg transition-all duration-300 h-full flex flex-col items-center justify-center group-hover:from-yellow-100 group-hover:to-yellow-200">
                   <div className="text-5xl sm:text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
                     {category.icon}
                   </div>
