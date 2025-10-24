@@ -85,8 +85,11 @@ export default function Index() {
       </section>
 
       {/* Quick Stats */}
-      <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8">
+      <section className="py-12 sm:py-16 px-3 sm:px-6 lg:px-8 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
         <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-10 sm:mb-12 font-display">
+            Why Choose JAGIVOHAN
+          </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
             {[
               { number: "100+", label: "Products" },
@@ -96,12 +99,12 @@ export default function Index() {
             ].map((stat, index) => (
               <div
                 key={index}
-                className="text-center p-4 sm:p-6 bg-muted rounded-lg hover:shadow-lg transition-shadow"
+                className="text-center p-4 sm:p-6 bg-white/10 rounded-lg hover:bg-white/20 transition-all border border-white/20"
               >
-                <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary mb-2 font-display">
+                <p className="text-2xl sm:text-3xl md:text-4xl font-bold text-yellow-300 mb-2 font-display">
                   {stat.number}
                 </p>
-                <p className="text-xs sm:text-sm text-muted-foreground font-medium">
+                <p className="text-xs sm:text-sm text-blue-100 font-medium">
                   {stat.label}
                 </p>
               </div>
