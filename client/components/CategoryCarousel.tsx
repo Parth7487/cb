@@ -87,7 +87,7 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
                   <div className="text-5xl sm:text-6xl mb-4 group-hover:scale-110 transition-transform duration-300">
                     {category.icon}
                   </div>
-                  <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2 group-hover:text-yellow-600 transition-colors">
                     {category.name}
                   </h3>
                   <p className="text-xs sm:text-sm text-muted-foreground group-hover:text-foreground transition-colors line-clamp-2">
