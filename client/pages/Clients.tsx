@@ -36,13 +36,13 @@ export default function Clients() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/"
-              className="px-6 sm:px-8 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+              className="px-6 sm:px-8 py-3 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
             >
               Go Home
             </a>
             <a
               href="/contact"
-              className="px-6 sm:px-8 py-3 border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+              className="px-6 sm:px-8 py-3 border-2 border-yellow-600 text-yellow-600 hover:bg-yellow-600 hover:text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
             >
               Get In Touch
             </a>
