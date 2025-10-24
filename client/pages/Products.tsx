@@ -153,7 +153,7 @@ export default function Products() {
             <div className="mt-6 text-center">
               <button
                 onClick={() => setSelectedCategory(null)}
-                className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors text-sm sm:text-base"
+                className="px-6 py-2 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold rounded-lg transition-colors text-sm sm:text-base"
               >
                 View All Products
               </button>
