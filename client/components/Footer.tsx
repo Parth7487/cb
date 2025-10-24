@@ -50,29 +50,29 @@ export default function Footer() {
             <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Quick Links</h4>
             <div className="space-y-3">
               <a
-                href="https://wa.me/919724400442?text=Hello%20JAGIVOHAN%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
+                href="https://wa.me/919724400442?text=Hello%20CB%20GLOBAL%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="flex items-center gap-3 text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 <MessageCircle className="w-5 h-5 flex-shrink-0" />
                 <span>WhatsApp: +91 97244 00442</span>
               </a>
               <a
                 href="/"
-                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="block text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 Home
               </a>
               <a
                 href="/products"
-                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="block text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 Products & Services
               </a>
               <a
                 href="/contact"
-                className="block text-blue-100 hover:text-yellow-300 transition-colors text-xs sm:text-sm"
+                className="block text-gray-300 hover:text-yellow-500 transition-colors text-xs sm:text-sm"
               >
                 Contact Us
               </a>
@@ -81,8 +81,8 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-300">Our Specialties</h4>
-            <div className="space-y-2 text-blue-100 text-xs sm:text-sm">
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Our Specialties</h4>
+            <div className="space-y-2 text-gray-300 text-xs sm:text-sm">
               <p>• Consultancy Services</p>
               <p>• Blower Molding</p>
               <p>• Auxiliary Equipment</p>
