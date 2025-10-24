@@ -16,6 +16,18 @@ interface CategoryCarouselProps {
 export default function CategoryCarousel({ categories, onCategoryClick }: CategoryCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
+  const [windowSize, setWindowSize] = useState<{ width: number } | null>(null);
+
+  useEffect(() => {
+    setWindowSize({ width: window.innerWidth });
+
+    const handleResize = () => {
+      setWindowSize({ width: window.innerWidth });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     if (!isAutoPlay) return;
@@ -42,21 +54,22 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
     setIsAutoPlay(false);
   };
 
+  const getItemsPerView = () => {
+    if (!windowSize) return 3;
+    return windowSize.width < 640 ? 1 : windowSize.width < 1024 ? 2 : 3;
+  };
+
+  const itemsPerView = getItemsPerView();
+
   const getVisibleCategories = () => {
-    const itemsPerView = window.innerWidth < 640 ? 1 : window.innerWidth < 1024 ? 2 : 3;
-    const categories_copy = [...categories];
     const result = [];
 
     for (let i = 0; i < itemsPerView; i++) {
-      result.push(categories_copy[(currentIndex + i) % categories_copy.length]);
+      result.push(categories[(currentIndex + i) % categories.length]);
     }
 
     return result;
   };
-
-  const itemsPerView = typeof window !== "undefined" 
-    ? window.innerWidth < 640 ? 1 : window.innerWidth < 1024 ? 2 : 3
-    : 3;
 
   return (
     <div className="w-full">
