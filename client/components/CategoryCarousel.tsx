@@ -104,14 +104,14 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
           <>
             <button
               onClick={goToPrevious}
-              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-full shadow-lg transition-colors"
+              className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-10 bg-yellow-600 hover:bg-yellow-700 text-white p-2 rounded-full shadow-lg transition-colors"
               aria-label="Previous"
             >
               <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
             </button>
             <button
               onClick={goToNext}
-              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 hover:bg-blue-700 text-white p-2 rounded-full shadow-lg transition-colors"
+              className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-10 bg-yellow-600 hover:bg-yellow-700 text-white p-2 rounded-full shadow-lg transition-colors"
               aria-label="Next"
             >
               <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -129,7 +129,7 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
               onClick={() => goToSlide(index * itemsPerView)}
               className={`h-2 rounded-full transition-all duration-300 ${
                 Math.floor(currentIndex / itemsPerView) === index
-                  ? "bg-blue-600 w-6"
+                  ? "bg-yellow-600 w-6"
                   : "bg-gray-300 w-2 hover:bg-gray-400"
               }`}
               aria-label={`Go to slide ${index + 1}`}
