@@ -57,8 +57,8 @@ export default function Contact() {
               {/* Email */}
               <div className="bg-white rounded-lg p-5 sm:p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 rounded-lg p-3 flex-shrink-0">
-                    <Mail className="w-6 h-6 text-blue-600" />
+                  <div className="bg-yellow-100 rounded-lg p-3 flex-shrink-0">
+                    <Mail className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1 text-sm sm:text-base">
@@ -66,7 +66,7 @@ export default function Contact() {
                     </h4>
                     <a
                       href="mailto:Sale@cbgloble.in"
-                      className="text-blue-600 hover:text-blue-700 transition-colors text-xs sm:text-sm break-all"
+                      className="text-yellow-600 hover:text-yellow-700 transition-colors text-xs sm:text-sm break-all"
                     >
                       Sale@cbgloble.in
                     </a>
@@ -77,8 +77,8 @@ export default function Contact() {
               {/* Phone */}
               <div className="bg-white rounded-lg p-5 sm:p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 rounded-lg p-3 flex-shrink-0">
-                    <Phone className="w-6 h-6 text-blue-600" />
+                  <div className="bg-yellow-100 rounded-lg p-3 flex-shrink-0">
+                    <Phone className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1 text-sm sm:text-base">
@@ -86,7 +86,7 @@ export default function Contact() {
                     </h4>
                     <a
                       href="tel:+919724400442"
-                      className="text-blue-600 hover:text-blue-700 transition-colors text-xs sm:text-sm font-semibold"
+                      className="text-yellow-600 hover:text-yellow-700 transition-colors text-xs sm:text-sm font-semibold"
                     >
                       +91 97244 00442
                     </a>
@@ -97,8 +97,8 @@ export default function Contact() {
               {/* Address */}
               <div className="bg-white rounded-lg p-5 sm:p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 rounded-lg p-3 flex-shrink-0">
-                    <MapPin className="w-6 h-6 text-blue-600" />
+                  <div className="bg-yellow-100 rounded-lg p-3 flex-shrink-0">
+                    <MapPin className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground mb-1 text-sm sm:text-base">
@@ -114,8 +114,8 @@ export default function Contact() {
               {/* Business Hours */}
               <div className="bg-white rounded-lg p-5 sm:p-6 shadow-lg hover:shadow-xl transition-shadow">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-100 rounded-lg p-3 flex-shrink-0">
-                    <Clock className="w-6 h-6 text-blue-600" />
+                  <div className="bg-yellow-100 rounded-lg p-3 flex-shrink-0">
+                    <Clock className="w-6 h-6 text-yellow-600" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-semibold text-foreground mb-3 text-sm sm:text-base">
