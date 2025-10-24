@@ -29,12 +29,12 @@ export default function Contact() {
       <Header />
 
       {/* Page Header */}
-      <section className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700 py-10 sm:py-14 px-3 sm:px-6 lg:px-8">
+      <section className="bg-gray-900 py-10 sm:py-14 px-3 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-3 sm:mb-4 font-display">
             Get In Touch
           </h1>
-          <p className="text-sm sm:text-base text-blue-100">
+          <p className="text-sm sm:text-base text-gray-300">
             We&apos;re here to help. Reach out to us through any of these channels.
           </p>
         </div>
