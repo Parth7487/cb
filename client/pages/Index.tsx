@@ -35,14 +35,14 @@ export default function Index() {
                 About CB GLOBAL
               </h2>
               <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
-                With over 15 years of expertise in the industry, JAGIVOHAN is a leading provider of innovative manufacturing and industrial solutions. We are committed to delivering excellence and transforming businesses through cutting-edge technology and unparalleled service.
+                With over 15 years of expertise in the industry, CB GLOBAL is a leading provider of innovative manufacturing and industrial solutions. We are committed to delivering excellence and transforming businesses through cutting-edge technology and unparalleled service.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground mb-6 leading-relaxed">
                 Our comprehensive range of products and services spans consultancy, specialized machinery, and auxiliary equipment designed to meet the diverse needs of modern industries. We pride ourselves on quality, reliability, and customer-centric innovation.
               </p>
               <Link
                 to="/about"
-                className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
+                className="inline-block px-6 sm:px-8 py-2.5 sm:py-3 bg-yellow-600 hover:bg-yellow-700 text-white font-semibold rounded-lg transition-colors duration-200 text-sm sm:text-base"
               >
                 Read Full Story
               </Link>
