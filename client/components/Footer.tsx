@@ -95,6 +95,7 @@ export default function Footer() {
               <p>• Blower Molding</p>
               <p>• Auxiliary Equipment</p>
               <p>• Industrial Solutions</p>
+              <p>• Technical Support</p>
             </div>
           </div>
         </div>
