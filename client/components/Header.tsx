@@ -36,6 +36,7 @@ export default function Header() {
               <Link
                 key={link.label}
                 to={link.href}
+                onClick={scrollToTop}
                 className="text-sm font-semibold text-gray-800 hover:text-yellow-600 transition-colors duration-200 uppercase tracking-wide"
               >
                 {link.label}
