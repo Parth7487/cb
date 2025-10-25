@@ -20,13 +20,13 @@ export default function Header() {
   return (
     <header className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 shadow-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24 sm:h-28 md:h-20">
+        <div className="flex justify-between items-center h-28 sm:h-32 md:h-24">
           {/* Logo */}
           <Link to="/" onClick={scrollToTop} className="flex items-center flex-shrink-0">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=400"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fb23e53311cf746039d4077ed37f74c3d?format=webp&width=800"
               alt="CB GLOBAL Logo"
-              className="h-16 sm:h-20 w-auto object-contain"
+              className="h-20 sm:h-28 md:h-24 w-auto object-contain"
             />
           </Link>
 
