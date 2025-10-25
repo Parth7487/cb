@@ -65,7 +65,10 @@ export default function Header() {
               <Link
                 key={link.label}
                 to={link.href}
-                onClick={() => setIsMenuOpen(false)}
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  scrollToTop();
+                }}
                 className="block px-4 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-lg transition-colors uppercase tracking-wide"
               >
                 {link.label}
