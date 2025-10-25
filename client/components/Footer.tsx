@@ -14,7 +14,9 @@ export default function Footer() {
             className="h-40 sm:h-56 w-auto object-contain mx-auto mb-4"
           />
           <p className="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-            Leading provider of innovative manufacturing and industrial solutions. Trusted by businesses worldwide for quality, reliability, and excellence.
+            Leading provider of innovative manufacturing and industrial
+            solutions. Trusted by businesses worldwide for quality, reliability,
+            and excellence.
           </p>
         </div>
 
@@ -22,7 +24,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 mb-12">
           {/* Contact Details */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Contact Information</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">
+              Contact Information
+            </h4>
             <div className="space-y-4">
               <a
                 href="mailto:Sale@cbgloble.in"
@@ -47,7 +51,9 @@ export default function Footer() {
 
           {/* WhatsApp & Services */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Quick Links</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">
+              Quick Links
+            </h4>
             <div className="space-y-3">
               <a
                 href="https://wa.me/919724400442?text=Hello%20CB%20GLOBLE%20%2C%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
@@ -81,7 +87,9 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">Our Specialties</h4>
+            <h4 className="text-base sm:text-lg font-semibold mb-5 text-yellow-500">
+              Our Specialties
+            </h4>
             <div className="space-y-2 text-gray-300 text-xs sm:text-sm">
               <p>• Consultancy Services</p>
               <p>• Blower Molding</p>
@@ -96,7 +104,15 @@ export default function Footer() {
         <div className="border-t border-gray-700 pt-8 sm:pt-10">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <p className="text-center sm:text-left text-gray-400 text-xs sm:text-sm">
-              Designed and developed by <a href="https://shopifydevstudio.tech" target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:text-yellow-400 font-semibold">Shopifydevstudio.tech</a>
+              Designed and developed by{" "}
+              <a
+                href="https://shopifydevstudio.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-yellow-500 hover:text-yellow-400 font-semibold"
+              >
+                Shopifydevstudio.tech
+              </a>
             </p>
             <p className="text-center sm:text-right text-gray-400 text-xs sm:text-sm">
               &copy; {currentYear} CB GLOBAL. All rights reserved.

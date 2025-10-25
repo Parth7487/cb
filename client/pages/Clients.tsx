@@ -31,7 +31,9 @@ export default function Clients() {
             Coming Soon
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground mb-8 leading-relaxed">
-            We&apos;re working on showcasing our amazing clients and their success stories. Check back soon to see the incredible partnerships and projects we&apos;ve worked on together.
+            We&apos;re working on showcasing our amazing clients and their
+            success stories. Check back soon to see the incredible partnerships
+            and projects we&apos;ve worked on together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

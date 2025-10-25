@@ -38,10 +38,18 @@ export default function Index() {
                 About CB GLOBAL
               </h2>
               <p className="text-sm sm:text-base text-muted-foreground mb-4 leading-relaxed">
-                With over 15 years of expertise in the industry, CB GLOBAL is a leading provider of innovative manufacturing and industrial solutions. We are committed to delivering excellence and transforming businesses through cutting-edge technology and unparalleled service.
+                With over 15 years of expertise in the industry, CB GLOBAL is a
+                leading provider of innovative manufacturing and industrial
+                solutions. We are committed to delivering excellence and
+                transforming businesses through cutting-edge technology and
+                unparalleled service.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground mb-6 leading-relaxed">
-                Our comprehensive range of products and services spans consultancy, specialized machinery, and auxiliary equipment designed to meet the diverse needs of modern industries. We pride ourselves on quality, reliability, and customer-centric innovation.
+                Our comprehensive range of products and services spans
+                consultancy, specialized machinery, and auxiliary equipment
+                designed to meet the diverse needs of modern industries. We
+                pride ourselves on quality, reliability, and customer-centric
+                innovation.
               </p>
               <Link
                 to="/about"
@@ -68,7 +76,8 @@ export default function Index() {
             Discover Our Solutions
           </h2>
           <p className="text-sm sm:text-base text-muted-foreground max-w-2xl mx-auto mb-6 sm:mb-8">
-            Explore our comprehensive range of products and services designed to transform your business and drive innovation.
+            Explore our comprehensive range of products and services designed to
+            transform your business and drive innovation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -22,7 +22,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-28 sm:h-32 md:h-24">
           {/* Logo */}
-          <Link to="/" onClick={scrollToTop} className="flex items-center flex-shrink-0">
+          <Link
+            to="/"
+            onClick={scrollToTop}
+            className="flex items-center flex-shrink-0"
+          >
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fb23e53311cf746039d4077ed37f74c3d?format=webp&width=800"
               alt="CB GLOBAL Logo"

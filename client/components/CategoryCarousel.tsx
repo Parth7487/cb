@@ -13,7 +13,10 @@ interface CategoryCarouselProps {
   onCategoryClick?: (categoryId: string) => void;
 }
 
-export default function CategoryCarousel({ categories, onCategoryClick }: CategoryCarouselProps) {
+export default function CategoryCarousel({
+  categories,
+  onCategoryClick,
+}: CategoryCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlay, setIsAutoPlay] = useState(true);
   const [windowSize, setWindowSize] = useState<{ width: number } | null>(null);
@@ -40,7 +43,9 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
   }, [isAutoPlay, categories.length]);
 
   const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev - 1 + categories.length) % categories.length);
+    setCurrentIndex(
+      (prev) => (prev - 1 + categories.length) % categories.length,
+    );
     setIsAutoPlay(false);
   };
 
@@ -123,7 +128,9 @@ export default function CategoryCarousel({ categories, onCategoryClick }: Catego
       {/* Indicators */}
       {categories.length > itemsPerView && (
         <div className="flex justify-center gap-2 mt-6">
-          {Array.from({ length: Math.ceil(categories.length / itemsPerView) }).map((_, index) => (
+          {Array.from({
+            length: Math.ceil(categories.length / itemsPerView),
+          }).map((_, index) => (
             <button
               key={index}
               onClick={() => goToSlide(index * itemsPerView)}

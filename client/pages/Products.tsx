@@ -77,7 +77,11 @@ export default function Products() {
       title: "Industrial Consultancy",
       description:
         "Expert guidance for optimizing your manufacturing processes.",
-      specs: ["Real-time analysis", "Process optimization", "Training included"],
+      specs: [
+        "Real-time analysis",
+        "Process optimization",
+        "Training included",
+      ],
       category: "consultancy",
     },
     {
@@ -86,11 +90,7 @@ export default function Products() {
       title: "Auxiliary Equipment",
       description:
         "Complete range of auxiliary equipment to support your operations.",
-      specs: [
-        "High durability",
-        "Easy integration",
-        "Cost-effective",
-      ],
+      specs: ["High durability", "Easy integration", "Cost-effective"],
       category: "auxiliary",
     },
     {
@@ -99,7 +99,11 @@ export default function Products() {
       title: "Heavy Machinery",
       description:
         "Industrial-grade machinery built for performance and longevity.",
-      specs: ["Precision engineered", "Durable construction", "Global standards"],
+      specs: [
+        "Precision engineered",
+        "Durable construction",
+        "Global standards",
+      ],
       category: "machinery",
     },
     {
@@ -167,14 +171,18 @@ export default function Products() {
         <div className="max-w-6xl mx-auto">
           {selectedCategory && (
             <p className="text-center text-muted-foreground mb-8 text-sm sm:text-base">
-              Showing products in category: <span className="font-semibold text-foreground">
+              Showing products in category:{" "}
+              <span className="font-semibold text-foreground">
                 {categories.find((c) => c.id === selectedCategory)?.name}
               </span>
             </p>
           )}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {filteredProducts.map((product, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden">
+              <div
+                key={index}
+                className="bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow overflow-hidden"
+              >
                 <img
                   src={product.image}
                   alt={product.title}
@@ -189,7 +197,10 @@ export default function Products() {
                   </p>
                   <ul className="space-y-1 mb-5">
                     {product.specs.map((spec, specIndex) => (
-                      <li key={specIndex} className="text-xs sm:text-sm text-muted-foreground flex items-center gap-2">
+                      <li
+                        key={specIndex}
+                        className="text-xs sm:text-sm text-muted-foreground flex items-center gap-2"
+                      >
                         <span className="text-blue-600">✓</span> {spec}
                       </li>
                     ))}
@@ -203,7 +214,7 @@ export default function Products() {
                       Request Call
                     </button>
                     <button
-                      onClick={() => window.location.href = "/contact"}
+                      onClick={() => (window.location.href = "/contact")}
                       className="flex-1 px-4 py-2.5 border-2 border-yellow-600 text-yellow-600 hover:bg-yellow-600 hover:text-white font-semibold rounded-lg transition-colors text-xs sm:text-sm"
                     >
                       Learn More

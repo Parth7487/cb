@@ -29,7 +29,11 @@ export default function About() {
                   Our Mission
                 </h2>
                 <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                  At CB GLOBAL, we are committed to revolutionizing industrial manufacturing through innovative solutions and cutting-edge technology. Our mission is to empower businesses with reliable, efficient products and expert consultancy that drive growth and operational excellence.
+                  At CB GLOBAL, we are committed to revolutionizing industrial
+                  manufacturing through innovative solutions and cutting-edge
+                  technology. Our mission is to empower businesses with
+                  reliable, efficient products and expert consultancy that drive
+                  growth and operational excellence.
                 </p>
               </div>
 
@@ -73,10 +77,21 @@ export default function About() {
             </h2>
             <div className="space-y-4 sm:space-y-6">
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Founded with a vision to transform industrial manufacturing, CB GLOBAL has established itself as a trusted leader in providing innovative machinery, consultancy, and auxiliary solutions. With over 15 years of expertise, we have partnered with numerous industries to optimize their operations and achieve sustainable growth.
+                Founded with a vision to transform industrial manufacturing, CB
+                GLOBAL has established itself as a trusted leader in providing
+                innovative machinery, consultancy, and auxiliary solutions. With
+                over 15 years of expertise, we have partnered with numerous
+                industries to optimize their operations and achieve sustainable
+                growth.
               </p>
               <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Our specialization spans consultancy services, blower molding systems, auxiliary equipment, and comprehensive industrial solutions. We combine technical expertise with customer-centric service to deliver products and solutions that exceed expectations. Our commitment to quality, reliability, and innovation continues to make us the preferred choice for industries across India and beyond.
+                Our specialization spans consultancy services, blower molding
+                systems, auxiliary equipment, and comprehensive industrial
+                solutions. We combine technical expertise with customer-centric
+                service to deliver products and solutions that exceed
+                expectations. Our commitment to quality, reliability, and
+                innovation continues to make us the preferred choice for
+                industries across India and beyond.
               </p>
             </div>
           </div>
