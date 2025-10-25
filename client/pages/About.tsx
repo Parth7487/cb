@@ -60,7 +60,7 @@ export default function About() {
             <div className="rounded-lg overflow-hidden shadow-lg h-64 sm:h-80 lg:h-96">
               <img
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=600&h=400&fit=crop"
-                alt="JAGIVOHAN team"
+                alt="CB GLOBAL team"
                 className="w-full h-full object-cover"
               />
             </div>

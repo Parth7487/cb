@@ -53,7 +53,7 @@ export default function Index() {
             <div className="flex justify-center">
               <img
                 src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=500&h=400&fit=crop"
-                alt="JAGIVOHAN Manufacturing"
+                alt="CB GLOBAL Manufacturing"
                 className="rounded-lg shadow-lg w-full max-w-md h-auto"
               />
             </div>
