@@ -22,11 +22,11 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24 sm:h-28 md:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center flex-shrink-0">
+          <Link to="/" onClick={scrollToTop} className="flex items-center flex-shrink-0">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F41fcf224af494ff39f001668f5d12037%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=400"
-              alt="JAGIVOHAN Logo"
-              className="h-20 sm:h-24 w-auto object-contain"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=400"
+              alt="CB GLOBAL Logo"
+              className="h-16 sm:h-20 w-auto object-contain"
             />
           </Link>
 
