@@ -5,34 +5,43 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const navLinks = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
+    { label: "ABOUT US", href: "/about" },
     { label: "Products", href: "/products" },
-    { label: "Gallery", href: "/gallery" },
+    { label: "Our Clients", href: "/clients" },
     { label: "Contact", href: "/contact" },
   ];
 
   return (
-    <header className="bg-white border-b border-silver-light sticky top-0 z-50 shadow-sm">
+    <header className="bg-white/95 backdrop-blur-sm sticky top-0 z-50 shadow-md border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20 sm:h-24">
+        <div className="flex justify-between items-center h-28 sm:h-32 md:h-24">
           {/* Logo */}
-          <Link to="/" className="flex items-center flex-shrink-0">
+          <Link
+            to="/"
+            onClick={scrollToTop}
+            className="flex items-center flex-shrink-0"
+          >
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F41fcf224af494ff39f001668f5d12037%2Fa7bbac811dad49abb27c07f6f52dd0b3?format=webp&width=300"
-              alt="CB GLOBLE INDIA Logo"
-              className="h-16 sm:h-20 w-auto object-contain"
+              src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2Fb23e53311cf746039d4077ed37f74c3d?format=webp&width=800"
+              alt="CB GLOBAL Logo"
+              className="h-20 sm:h-28 md:h-24 w-auto object-contain"
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8">
+          <nav className="hidden md:flex items-center gap-8 lg:gap-10">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
                 to={link.href}
-                className="text-sm font-medium text-foreground hover:text-primary transition-colors duration-200"
+                onClick={scrollToTop}
+                className="text-sm font-semibold text-gray-800 hover:text-yellow-600 transition-colors duration-200 uppercase tracking-wide"
               >
                 {link.label}
               </Link>
@@ -42,26 +51,29 @@ export default function Header() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 rounded-lg hover:bg-muted transition-colors"
+            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors text-gray-800"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
-              <X className="w-5 h-5 sm:w-6 sm:h-6" />
+              <X className="w-6 h-6 sm:w-7 sm:h-7" />
             ) : (
-              <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
+              <Menu className="w-6 h-6 sm:w-7 sm:h-7" />
             )}
           </button>
         </div>
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <nav className="md:hidden pb-4 space-y-2 animate-fadeInUp">
+          <nav className="md:hidden pb-4 space-y-1 animate-fadeInUp bg-gray-50">
             {navLinks.map((link) => (
               <Link
                 key={link.label}
                 to={link.href}
-                onClick={() => setIsMenuOpen(false)}
-                className="block px-4 py-2 text-sm font-medium text-foreground hover:bg-muted rounded-lg transition-colors"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  scrollToTop();
+                }}
+                className="block px-4 py-3 text-sm font-semibold text-gray-800 hover:bg-gray-100 rounded-lg transition-colors uppercase tracking-wide"
               >
                 {link.label}
               </Link>
