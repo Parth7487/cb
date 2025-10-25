@@ -11,7 +11,7 @@ export default function Footer() {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fc976f66d5bf2413d808cd3b62e8c250b%2F2b31d010576c47e495132cfad775dc10?format=webp&width=400"
             alt="CB GLOBAL Logo"
-            className="h-32 sm:h-40 w-auto object-contain mx-auto mb-4"
+            className="h-40 sm:h-56 w-auto object-contain mx-auto mb-4"
           />
           <p className="text-gray-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
             Leading provider of innovative manufacturing and industrial solutions. Trusted by businesses worldwide for quality, reliability, and excellence.
