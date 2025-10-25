@@ -5,9 +5,13 @@ import { Link } from "react-router-dom";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   const navLinks = [
     { label: "Home", href: "/" },
-    { label: "About", href: "/about" },
+    { label: "ABOUT US", href: "/about" },
     { label: "Products", href: "/products" },
     { label: "Our Clients", href: "/clients" },
     { label: "Contact", href: "/contact" },
